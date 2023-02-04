@@ -73,7 +73,7 @@ html,body
 header{
     width: 100vw; 
     height: 100vh; 
-    background-image: url(./ccpimages/airbagbackground.png);
+    background-image: url(airbagbackground.png);
     background-position: center;
     background-size: cover;
     display: flex; 
@@ -298,7 +298,7 @@ header{
 
 /*download*/
 .download-up{
-    background: url(./ccpimages/airbag.png); 
+    background: url(airbag.png); 
     min-height: 50vh; 
     display: flex; 
     align-items: center;

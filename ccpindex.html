@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjana's Chemistry Course Project</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="ccpstyle.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bd1cc8308d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <script src="src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/bd1cc8308d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <!--Scroll to Top-->
+   
+
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Niranjana Nambiar.</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#header">Home</a></li>
+            <li><a href="#unit1">Unit 1</a></li>
+            <li><a href="#unit2">Unit 2</a></li>
+            <li><a href="#unit3">Unit 3</a></li>
+            <li><a href="#unit4">Unit 4</a></li>
+            <li class="ctn"><a href="#downloads">Download</a></li>
+        </ul>
+        <img src="./ccpimages/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2 id="header">Grade 11 Chemistry Course Project</h2>
+            <div class="line"></div>
+            <h1>The Chemistry Behind Car Airbags</h1>
+            <a href="#intro" class="btn"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
+    </header>
+
+    <!--Introduction-->
+    <section class ="intro" id="intro"> 
+        <div class="title">
+            <h1>Introduction and History</h1>
+            <div class="line"></div>
+        </div>
+        <div class ="written">Fun Fact: The first airbag design was not commercially used because the spring could not accurately determine if the car was in a crash, or if it just drove over a pothole. Plus, the compressed air was not quick enough to fill the airbag to protect the passenger. There were also special arrangements to store the compressed air - as a tank in the trunk of the car. The idea of using chemical explosives like sodium azide instead of compressed air was also one of Breed’s developments. </div>
+        <div class="utube">
+            <div class = "iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TlKhDkjM1IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <!--Stats-->
+    
+    <section class = "section_counter" id="section_counter">  
+
+        <div class="counter-up">
+            <div class = "counter-content">
+                <div class = "counter-box">
+                    <div class = "icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <div class="counter-number">50,457</div>
+                    <div class="counter-text">"Lives saved by frontal airbags".</div>
+                </div>
+                <div class = "counter-box">
+                    <div class = "icon"><i class="fa-solid fa-car-burst"></i></div>
+                    <div class="counter-number">1.3</div>
+                    <div class="counter-text">Million deaths due to car accidents worldwide.</div>
+                </div>
+                <div class = "counter-box">
+                    <div class = "icon"><i class="fa-solid fa-user-injured"></i></div>
+                    <div class="counter-number">85%</div>
+                    <div class="counter-text">Airbags are "effective in preventing serious head injuries".</div>
+                </div>
+                <div class = "counter-box">
+                    <div class = "icon"><i class="fa-solid fa-child-reaching"></i></div>
+                    <div class="counter-number">51%</div>
+                    <div class="counter-text">Airbags are effective in preventing injuries to "all body regions".</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Units-->
+    <section class ="units" id="unit1"> 
+        <div class="title">
+            <h1>Unit 1</h1>
+        </div>
+        <div class="utube">
+            <div class = "iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g2m3r4IoZgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </div>
+    </section>
+
+    <section class ="units" id="unit2"> 
+        <div class="title">
+            <h1>Unit 2</h1>
+        </div>
+        <div class="utube">
+            <div class = "iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JifR0gYkwX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </div>
+    </section>
+
+    <section class ="units" id="unit3"> 
+        <div class="title">
+            <h1>Unit 3</h1>
+            <div class ="written">Includes connections to Unit 5.</div>
+        </div>
+        <div class="utube">
+            <div class = "iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1ofGw-Tx1Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </div>
+    </section>
+
+    <section class ="units" id="unit4"> 
+        <div class="title">
+            <h1>Unit 4</h1>
+        </div>
+        <div class="utube">
+            <div class = "iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZffYelT6oJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+        </div>
+    </section>
+
+
+    <!--Download-->
+    <section class = "downloads" id="downloads">  
+
+        <div class="download-up">
+            <div class = "download-content">
+                <div class = "download-box">
+                    <div class = "dicon">
+                        <a href="https://drive.google.com/file/d/13sWFsH50d_LwiN0OM6jAPPvS4aq3_edJ/view?usp=sharing"><i class="fa-solid fa-book-atlas"></i></a>
+                    </div>
+                    <div class="download-text">Click here to view my work!<br>Self-Assessment included.</br></div>
+                </div>
+                <div class = "download-box">
+                    <div class = "dicon">
+                        <a href="https://drive.google.com/file/d/1sHJluuVAS3ZD4caDPMjyAiGT1abbyVcT/view?usp=sharing"><i class="fa-solid fa-book"></i></a>
+                    </div>
+                    <div class="download-text">Click here to view my bibliography!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+   
+
+    <!--Copyright-->
+    <section class="copyright">
+        <p>© 2023. Created with   <i class="fa-solid fa-hand-holding-heart"></i> by Niranjana Nambiar.</p>
+    </section>
+</body>
+</html>
